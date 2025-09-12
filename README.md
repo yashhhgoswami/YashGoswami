@@ -1,75 +1,24 @@
-<a name="readme-top"></a>
+# YashNewPortfolio
 
-# Yash Goswami — Space Portfolio (Next.js 14)
+> Unified Space‑Themed Portfolio & Developer Hub
+>
+> Multi‑section showcase, animated UI, modern stack, and rapid iteration.
 
-Welcome to my full‑stack space‑themed portfolio built with Next.js 14, TypeScript, Tailwind CSS, and Framer Motion. It showcases my skills, projects, and experience with smooth animations and a clean, responsive UI.
+---
 
-## Overview
+## ✨ Features
 
-- Name: Yash Goswami
-- Description: Full‑stack/Frontend portfolio with animated sections and a space vibe
-- Tech: Next.js 14, React 18, TypeScript, Tailwind CSS, Framer Motion, React Icons
-- Socials: 
-  - GitHub: `https://github.com/yashhhgoswami`
-  - LinkedIn: `https://www.linkedin.com/in/yashhhgoswami/`
-  - X (Twitter): `https://x.com/yashhhgoswami`
-  - Instagram: `https://www.instagram.com/yashhhgoswami/`
-- Contact: `mailto:yashhhgoswami@gmail.com`
+• Animated hero section with space background
+• Responsive design (Tailwind CSS)
+• Modular sections: About, Skills, Projects, Experience, Contact
+• Framer Motion for smooth transitions
+• Centralized config and constants for easy updates
+• Accessibility: semantic HTML, aria labels
+• Modern UI: gradients, glassmorphism, iconography
 
-## Features
+---
 
-- Hero section with animated background and content
-- About Me, Skills, Projects, Experience, and Contact sections
-- Responsive design with Tailwind CSS
-- Smooth interactions and reveal animations via Framer Motion
-- Centralized content via `constants/index.ts` and `config/index.ts`
-
-## Projects
-
-- YG Motors — Unleash the Drive: `https://yg-motors.vercel.app/`
-- RailGuard — Automatic Railway Gate System: `https://railguard-dashboard.onrender.com/`
-- Personal Portfolio (earlier design): `https://my-portfolioo-beige.vercel.app/`
-
-## Experience
-
-- Frontend Developer — Teachrity (Remote) — July 2025 – Present
-- Quantum Computing Intern — DRDO, India (Onsite) — May 2025 – July 2025
-- Content Team Lead — IIITians Network (Remote) — June 2024 – Feb 2025
-
-## Tech Stack
-
-- Frameworks/Libraries: Next.js 14, React 18, Framer Motion
-- Language/Types: TypeScript
-- Styling: Tailwind CSS
-- Icons/Utilities: React Icons, clsx, tailwind-merge
-- 3D (available): three, @react-three/fiber, @react-three/drei
-
-## Getting Started
-
-Prerequisites:
-- Node.js 18+ and npm (or Yarn/Pnpm)
-
-Install dependencies and run the dev server:
-
-```powershell
-npm install
-npm run dev
-```
-
-Build and start production server:
-
-```powershell
-npm run build
-npm start
-```
-
-Lint:
-
-```powershell
-npm run lint
-```
-
-## Project Structure
+## 📁 Project Structure
 
 ```
 app/
@@ -110,21 +59,112 @@ public/
   videos/
 ```
 
-## Configuration and Content
+---
 
-- `config/index.ts`: Site metadata (title, description, authors)
-- `constants/index.ts`: Social links, skills, projects, experience, contact, and nav links
+## 🚀 Getting Started
+
+### 1. Clone & Install
+
+```powershell
+git clone https://github.com/yashhhgoswami/YashNewPortfolio.git
+cd YashNewPortfolio
+npm install
+```
+
+### 2. Run Dev Server
+
+```powershell
+npm run dev
+```
+Visit the printed local URL (default `http://localhost:3000`).
+
+### 3. Lint
+
+```powershell
+npm run lint
+```
+
+### 4. Production Build
+
+```powershell
+npm run build
+npm start
+```
+
+---
+
+## 🧱 Key Components
+
+| Component         | Description                                 |
+|-------------------|---------------------------------------------|
+| Navbar            | Global navigation, social links             |
+| Hero              | Animated intro, space theme                 |
+| Projects          | Portfolio projects showcase                 |
+| Skills            | Tech stack, skills grid                     |
+| Experience        | Work & internship timeline                  |
+| Contact           | Email/contact form, socials                 |
+| Footer            | Copyright, quick links                      |
+
+---
+
+## 🛡 Security & Data
+
+• No sensitive keys or secrets in repo
+• Use environment variables for future API integrations
+• Prefer HTTPS for all external links
+
+---
+
+## 🗺 Roadmap
+
+- Add blog section
+- Integrate contact form backend
+- Add dark mode toggle
+- Expand project details with case studies
+- Add unit/integration tests
+- Internationalization (i18n)
+
+---
+
+## 🤝 Contributing
+
+1. Fork the repo
+2. Create a feature branch: `git checkout -b feat/awesome`
+3. Commit changes: `git commit -m "feat: add awesome"`
+4. Push: `git push origin feat/awesome`
+5. Open a Pull Request
+
+Coding style: follow existing component patterns, keep components focused, and prefer semantic HTML + accessible aria attributes.
+
+---
+
+## 🧪 Testing (Planned)
+
+Unit tests & integration UI snapshots will be introduced. Suggestions welcome.
+
+---
+
+## 📄 License
+
+Licensed under the MIT License.
+
+---
+
+## 🙌 Acknowledgements
+
+• Next.js, React, Tailwind CSS, Framer Motion
+• Community iconography via `react-icons`
+
+---
 
 ## Contact
 
-- Email: `yashhhgoswami@gmail.com`
-- GitHub: `https://github.com/yashhhgoswami`
-- LinkedIn: `https://www.linkedin.com/in/yashhhgoswami/`
-- X (Twitter): `https://x.com/yashhhgoswami`
-- Instagram: `https://www.instagram.com/yashhhgoswami/`
+- Email: yashhhgoswami@gmail.com
+- GitHub: https://github.com/yashhhgoswami
+- LinkedIn: https://www.linkedin.com/in/yashhhgoswami/
+- X (Twitter): https://x.com/yashhhgoswami
+- Instagram: https://www.instagram.com/yashhhgoswami/
 
-## License
+---
 
-This project is open‑sourced under the MIT License.
-
-If you find this project helpful, consider leaving a star. Thanks for visiting!
+Enjoy building with YashNewPortfolio! 🚀
