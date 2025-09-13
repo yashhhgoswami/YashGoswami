@@ -1,7 +1,7 @@
 <div align="center">
   <img src="public/logo.png" width="80" alt="Yash Goswami Logo" />
   
-  <h1>YashNewPortfolio</h1>
+  <h1>Yash Goswami's Portfolio</h1>
   <b>Unified Space Portfolio & Developer Hub</b><br>
   Multi‑section showcase, animated UI, modern stack, and rapid iteration.
   <br><br>
