@@ -30,7 +30,7 @@ export const HeroContent = () => {
           variants={slideInFromLeft(0.5)}
           className="text-3xl sm:text-4xl md:text-6xl font-bold text-white max-w-[600px] leading-tight"
         >
-          Hello! I'm{" "}
+          Hello! I&apos;m{" "}
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
             Yash Goswami
           </span>{" "}
