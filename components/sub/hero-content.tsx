@@ -30,13 +30,13 @@ export const HeroContent = () => {
           variants={slideInFromLeft(0.5)}
           className="text-3xl sm:text-4xl md:text-6xl font-bold text-white max-w-[600px] leading-tight"
         >
-          Transforming{" "}
+          Hello! I'm{" "}
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
-            Ideas
+            Yash Goswami
           </span>{" "}
-          into Seamless User{" "}
+          a Final Year Undergraduate from{" "}
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
-            Experiences
+           IIIT Manipur
           </span>
         </motion.h1>
 
@@ -45,7 +45,7 @@ export const HeroContent = () => {
           variants={slideInFromLeft(0.8)}
           className="text-base sm:text-lg text-gray-400 my-3 sm:my-4 max-w-[500px] mx-auto md:mx-0"
         >
-          I&apos;m a Full Stack Software Engineer specializing in building modern web applications. Check out my projects and skills.
+          I&apos;m Transforming Ideas into seamless user experiences, specializing in building modern web applications. Check out my projects and skills.
         </motion.p>
 
         {/* Call-to-Action Button */}
