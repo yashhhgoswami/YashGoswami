@@ -1,26 +1,37 @@
-# YashNewPortfolio
-
-> Unified Space‑Themed Portfolio & Developer Hub
->
-> Multi‑section showcase, animated UI, modern stack, and rapid iteration.
+<div align="center">
+  <img src="/logo.png" width="80" alt="YashNewPortfolio Logo" />
+  
+  <h1>YashNewPortfolio</h1>
+  <b>Unified Space Portfolio & Developer Hub</b><br>
+  Multi‑section showcase, animated UI, modern stack, and rapid iteration.
+  <br><br>
+  <a href="#getting-started">Getting Started</a> · <a href="#features">Features</a> · <a href="#roadmap">Roadmap</a> · <a href="#contributing">Contributing</a>
+  <br><br>
+  <img src="https://img.shields.io/badge/Next.js-14-000?logo=nextdotjs" />
+  <img src="https://img.shields.io/badge/React-18-61dafb?logo=react" />
+  <img src="https://img.shields.io/badge/TailwindCSS-3-38bdf8?logo=tailwindcss" />
+  <img src="https://img.shields.io/badge/TypeScript-5-3178c6?logo=typescript" />
+  <img src="https://img.shields.io/badge/Framer%20Motion-10-0055ff?logo=framer" />
+  <img src="https://img.shields.io/badge/License-MIT-yellow" />
+</div>
 
 ---
 
-## ✨ Features
+## Features
 
-• Animated hero section with space background
-• Responsive design (Tailwind CSS)
-• Modular sections: About, Skills, Projects, Experience, Contact
-• Framer Motion for smooth transitions
-• Centralized config and constants for easy updates
-• Accessibility: semantic HTML, aria labels
-• Modern UI: gradients, glassmorphism, iconography
+- 🚀 Animated hero section with space background
+- 📱 Responsive design (Tailwind CSS)
+- 🧩 Modular sections: About, Skills, Projects, Experience, Contact
+- 🎬 Framer Motion for smooth transitions
+- ⚙️ Centralized config and constants for easy updates
+- ♿ Accessibility: semantic HTML, aria labels
+- 🎨 Modern UI: gradients, glassmorphism, iconography
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
-```
+```text
 app/
   favicon.ico
   globals.css
@@ -61,7 +72,7 @@ public/
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### 1. Clone & Install
 
@@ -93,7 +104,7 @@ npm start
 
 ---
 
-## 🧱 Key Components
+## Key Components
 
 | Component         | Description                                 |
 |-------------------|---------------------------------------------|
@@ -107,15 +118,15 @@ npm start
 
 ---
 
-## 🛡 Security & Data
+## Security & Data
 
-• No sensitive keys or secrets in repo
-• Use environment variables for future API integrations
-• Prefer HTTPS for all external links
+- No sensitive keys or secrets in repo
+- Use environment variables for future API integrations
+- Prefer HTTPS for all external links
 
 ---
 
-## 🗺 Roadmap
+## Roadmap
 
 - Add blog section
 - Integrate contact form backend
@@ -126,7 +137,7 @@ npm start
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repo
 2. Create a feature branch: `git checkout -b feat/awesome`
@@ -138,22 +149,22 @@ Coding style: follow existing component patterns, keep components focused, and p
 
 ---
 
-## 🧪 Testing (Planned)
+## Testing (Planned)
 
 Unit tests & integration UI snapshots will be introduced. Suggestions welcome.
 
 ---
 
-## 📄 License
+## License
 
 Licensed under the MIT License.
 
 ---
 
-## 🙌 Acknowledgements
+## Acknowledgements
 
-• Next.js, React, Tailwind CSS, Framer Motion
-• Community iconography via `react-icons`
+- Next.js, React, Tailwind CSS, Framer Motion
+- Community iconography via `react-icons`
 
 ---
 
