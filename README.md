@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="/logo.png" width="80" alt="YashNewPortfolio Logo" />
+  <img src="public/logo.png" width="80" alt="Yash Goswami Logo" />
   
   <h1>YashNewPortfolio</h1>
   <b>Unified Space Portfolio & Developer Hub</b><br>
