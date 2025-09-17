@@ -35,13 +35,25 @@ export const Navbar = () => {
         {/* Desktop Navigation */}
         <div className="hidden md:flex items-center gap-8 bg-[rgba(3,0,20,0.37)] px-8 py-2 rounded-full border border-[rgba(112,66,248,0.38)] text-gray-200">
           {NAV_LINKS.map((link) => (
-            <Link 
-              key={link.title} 
-              href={link.link} 
-              className="hover:text-[rgb(112,66,248)] transition font-medium"
-            >
-              {link.title}
-            </Link>
+            'external' in link && link.external ? (
+              <a
+                key={link.title}
+                href={link.link}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-[rgb(112,66,248)] transition font-medium"
+              >
+                {link.title}
+              </a>
+            ) : (
+              <Link
+                key={link.title}
+                href={link.link}
+                className="hover:text-[rgb(112,66,248)] transition font-medium"
+              >
+                {link.title}
+              </Link>
+            )
           ))}
         </div>
 
@@ -91,14 +103,27 @@ export const Navbar = () => {
             {/* Mobile Links */}
             <div className="flex flex-col items-center space-y-8 text-lg font-medium">
               {NAV_LINKS.map((link) => (
-                <Link 
-                  key={link.title} 
-                  href={link.link} 
-                  onClick={closeMenu} 
-                  className="hover:text-[rgb(112,66,248)] transition"
-                >
-                  {link.title}
-                </Link>
+                'external' in link && link.external ? (
+                  <a
+                    key={link.title}
+                    href={link.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    onClick={closeMenu}
+                    className="hover:text-[rgb(112,66,248)] transition"
+                  >
+                    {link.title}
+                  </a>
+                ) : (
+                  <Link
+                    key={link.title}
+                    href={link.link}
+                    onClick={closeMenu}
+                    className="hover:text-[rgb(112,66,248)] transition"
+                  >
+                    {link.title}
+                  </Link>
+                )
               ))}
             </div>
 

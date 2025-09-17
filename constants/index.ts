@@ -1,5 +1,7 @@
 import { color } from "framer-motion";
 import { FaYoutube, FaFacebook } from "react-icons/fa";
+import { MdEmail } from "react-icons/md";
+import { HiOutlineDocumentText } from "react-icons/hi";
 import {
   RxDiscordLogo,
   RxGithubLogo,
@@ -275,11 +277,19 @@ export const EXPERIENCE_DATA = [
 export const CONTACT_DATA = [
   {
     name: "Email",
-    icon: null,
+    icon: MdEmail,
     link: "mailto:yashhhgoswami@gmail.com",
     username: "yashhhgoswami@gmail.com",
     description: "Drop me a message anytime",
     color: "from-red-500 to-orange-500",
+  },
+  {
+    name: "Resume",
+    icon: HiOutlineDocumentText,
+    link: "https://drive.google.com/file/d/1vW8rzA_XqyWotmoYyqkfXdkIcAdKupEJ/view?usp=drive_link",
+    username: "View Resume",
+    description: "Download or view my resume",
+    color: "from-green-500 to-blue-500",
   },
   {
     name: "LinkedIn",
@@ -335,6 +345,11 @@ export const NAV_LINKS = [
   {
     title: "Contact",
     link: "#contact",
+  },
+  {
+    title: "Resume",
+    link: "https://drive.google.com/file/d/1vW8rzA_XqyWotmoYyqkfXdkIcAdKupEJ/view?usp=drive_link",
+    external: true,
   },
 ] as const;
 
