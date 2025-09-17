@@ -5,7 +5,7 @@
   <b>Unified Space Portfolio & Developer Hub</b><br>
   Multi‑section showcase, animated UI, modern stack, and rapid iteration.
   <br><br>
-  <a href="#getting-started">Getting Started</a> · <a href="#features">Features</a> · <a href="#roadmap">Roadmap</a> · <a href="#contributing">Contributing</a>
+  <a href="#getting-started">Getting Started</a> · <a href="#features">Features</a> · <a href="#roadmap">Roadmap</a> · <a href="#contributing">Contributing</a> · <a href="https://drive.google.com/file/d/1vW8rzA_XqyWotmoYyqkfXdkIcAdKupEJ/view?usp=drive_link" target="_blank">Resume</a>
   <br><br>
   <img src="https://img.shields.io/badge/Next.js-14-000?logo=nextdotjs" />
   <img src="https://img.shields.io/badge/React-18-61dafb?logo=react" />
@@ -17,11 +17,12 @@
 
 ---
 
+
 ## Features
 
 - 🚀 Animated hero section with space background
 - 📱 Responsive design (Tailwind CSS)
-- 🧩 Modular sections: About, Skills, Projects, Experience, Contact
+- 🧩 Modular sections: About, Skills, Projects, Experience, Contact, Resume
 - 🎬 Framer Motion for smooth transitions
 - ⚙️ Centralized config and constants for easy updates
 - ♿ Accessibility: semantic HTML, aria labels
@@ -104,16 +105,17 @@ npm start
 
 ---
 
+
 ## Key Components
 
 | Component         | Description                                 |
 |-------------------|---------------------------------------------|
-| Navbar            | Global navigation, social links             |
+| Navbar            | Global navigation, social links, Resume link |
 | Hero              | Animated intro, space theme                 |
 | Projects          | Portfolio projects showcase                 |
 | Skills            | Tech stack, skills grid                     |
 | Experience        | Work & internship timeline                  |
-| Contact           | Email/contact form, socials                 |
+| Contact           | Email/contact form, socials, Resume         |
 | Footer            | Copyright, quick links                      |
 
 ---
@@ -168,6 +170,7 @@ Licensed under the MIT License.
 
 ---
 
+
 ## Contact
 
 - Email: yashhhgoswami@gmail.com
@@ -175,6 +178,7 @@ Licensed under the MIT License.
 - LinkedIn: https://www.linkedin.com/in/yashhhgoswami/
 - X (Twitter): https://x.com/yashhhgoswami
 - Instagram: https://www.instagram.com/yashhhgoswami/
+- Resume: [Download/View](https://drive.google.com/file/d/1vW8rzA_XqyWotmoYyqkfXdkIcAdKupEJ/view?usp=drive_link)
 
 ---
 
