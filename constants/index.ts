@@ -239,7 +239,7 @@ export const FOOTER_DATA = [
 
 export const EXPERIENCE_DATA = [
   {
-    role: "Frontend Developer",
+    role: "Software Developer",
     company: "Teachrity",
     location: "Remote",
     period: "July, 2025 - Present",
